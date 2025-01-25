@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Button</title>
+</head>
+<body>
+    <div class="button">
+        <div class="ball"></div>
+    </div>
+
+    <script> 
+    const toggleButton = document.querySelector('.ball');
+    toggleButton.addEventListener('click', () => {
+        document.body.classList.toggle('night-mode');
+    });
+    </script>
+</body>
+</html>
