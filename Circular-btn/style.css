@@ -24,7 +24,7 @@
      .button{
         background-color: aliceblue;
         height: 60px;
-        width: 140px;
+        width: 65px;
         border-radius: 30px;
         position: relative;
         display: inline-block;
@@ -38,7 +38,7 @@
         height: 50px;
         width: 50px;
         border-radius: 30px;
-        margin: 5px 5px 5px 5px;
+        margin: 5.2px 5.2px 5.2px 7px;
     } 
 
     .ball:hover{
